@@ -2,7 +2,6 @@ import styles from "./VideoPlaylist.module.scss";
 import { classNames } from "../../helpers/classNames/classNames";
 import { videoData } from "../../assets/mockData/videosData/videoData";
 import { VideoPlaylistItem } from "./VideoDetailPlaylist/VideoPlaylistItem";
-import "react-awesome-slider/dist/styles.css";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
