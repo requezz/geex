@@ -1,13 +1,50 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  display: flex;
+  background: linear-gradient(#7c2b1e, #000000 60%);
+}
+.swiper {
+  width: 80%;
+  margin: 0;
+  padding: 55px 0 55px 0;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-3d {
+  perspective: none;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.swiper-slide-prev {
+  transform: translate3d(0px, 0px, -100px) rotateZ(-10deg) scale(1) !important;
+}
+
+.swiper-slide-next {
+  transform: translate3d(0px, 0px, -100px) rotateZ(10deg) scale(1) !important;
+}
+
+.swiper-3d .swiper-slide-shadow-left {
+  background: none;
+}
+
+.swiper-3d .swiper-slide-shadow-right {
+  background: none;
+}
+
+.swiper-pagination-bullet {
+  display: none;
 }

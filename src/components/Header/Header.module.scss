@@ -1,0 +1,24 @@
+.Header {
+  display: flex;
+  margin: 20px 0 40px 90px;
+  justify-content: space-between;
+  width: 845px;
+}
+
+.headerText {
+  font-family: PT Root UI VF, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #fff;
+}
+
+.arrowIcon {
+  width: 8px;
+  height: 12px;
+  top: 25px;
+  left: 375px;
+  padding: 10px 20px 6px 7px;
+  angle: 0 deg;
+}

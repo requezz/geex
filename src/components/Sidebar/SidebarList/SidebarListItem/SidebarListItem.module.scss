@@ -1,0 +1,33 @@
+.SidebarItem {
+  display: flex;
+  height: 40px;
+  padding: 8px 12px 0 12px;
+  gap: 13px;
+}
+
+.SidebarItem:hover {
+  background: #7d7d7d;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.sidebarIcon {
+  width: 15px;
+  height: 18px;
+  margin: 10px 0 0 5px;
+  fill: #ffffff80;
+}
+
+.sidebarIcon:hover {
+  fill: #000;
+}
+
+.sidebarText {
+  font-family: PT Root UI VF, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-top: 10px;
+}

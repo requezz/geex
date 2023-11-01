@@ -1,0 +1,28 @@
+.Notification {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 20px;
+  right: 65px;
+  background-color: #191919;
+  border: 1px;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+}
+
+.notificationIcon {
+  margin-top: 5px;
+}
+
+.pointNotification {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: linear-gradient(0deg, #ff0000, #ff0000);
+  border: 1px solid #010101;
+  position: absolute;
+  top: 0;
+  left: 21px;
+}

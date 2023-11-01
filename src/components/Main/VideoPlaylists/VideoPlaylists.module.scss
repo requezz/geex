@@ -1,0 +1,58 @@
+.VideoPlaylistsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 90px;
+}
+
+.newPlaylist,
+.trending {
+  display: flex;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+.seeAllCommonBlock {
+  color: #fff;
+  width: 760px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.seeAllBlock,
+.seeAllBlockTrending {
+  font-family: PT Root UI VF, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.seeAllBlockTrending {
+  margin-top: 33px;
+}
+
+.seeAllIcon {
+  width: 10px;
+  height: 10px;
+  fill: #fff;
+}
+
+.newPlaylistText,
+.trendingText {
+  font-family: Random Grotesque Standard Bold, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  color: #fff;
+  margin-left: 6px;
+}
+
+.trendingText {
+  margin-top: 30px;
+}
+
+a {
+  display: flex;
+}

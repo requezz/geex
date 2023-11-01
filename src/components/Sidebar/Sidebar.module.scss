@@ -1,0 +1,66 @@
+.Sidebar {
+  position: relative;
+  width: 270px;
+  height: 890px;
+  background-color: #000;
+  color: #fff;
+}
+
+.avatarSidebar {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.mainText {
+  font-family: Random Grotesque Standard Bold, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0;
+  margin: 20px 0 0 17px;
+  color: #808080;
+}
+
+.orangeBlock {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 13.8rem;
+  right: 1rem;
+  padding: 3px;
+  border-radius: 7px;
+  gap: 10px;
+  line-height: 18px;
+  background-color: #ef7b3c;
+  font-family: PT Root UI VF, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.greenBlock {
+  width: 4px;
+  height: 44px;
+  margin-top: 20px;
+  border-radius: 0 10px 10px 0;
+  background-color: #6fd964;
+  box-shadow: 2px 0 5px #226817;
+}
+
+.avatarStack {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  top: 16.8rem;
+  right: 2rem;
+}
+
+.avatar {
+  width: 22px;
+  height: 22px;
+  margin-right: -15px;
+  border-radius: 50%;
+  border: 2px solid #000;
+}
